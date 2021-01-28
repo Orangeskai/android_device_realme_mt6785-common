@@ -121,11 +121,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
-# Symbols
-PRODUCT_PACKAGES += \
-    libshim_showlogo \
-    libshim_vtservice
-
 # Telephony Jars
 PRODUCT_BOOT_JARS += \
     mediatek-common \
