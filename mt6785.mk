@@ -55,7 +55,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CameraGo \
     DuckDuckGo \
-    AudioREC
+    AudioREC \
+    ScreenREC
 
 # fastbootd
 PRODUCT_PACKAGES += \
