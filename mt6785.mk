@@ -22,8 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/mt6785-common/mt6785-common-vendor.mk)
 
-# Parts
+# RealmeParts
 $(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
+
+# RealmeDirac
+$(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
