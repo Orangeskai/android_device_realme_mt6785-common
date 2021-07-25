@@ -90,6 +90,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.mt6785.rc \
     fstab.mt6785 \
+    custom_bin.sh \
     perf_profile.sh
 
 # Keylayouts
