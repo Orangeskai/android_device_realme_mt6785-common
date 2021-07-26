@@ -52,6 +52,9 @@ TARGET_NO_BOOTLOADER := true
 # Build system
 BUILD_BROKEN_DUP_RULES := true
 
+# Display
+TARGET_USES_HWC2 := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
