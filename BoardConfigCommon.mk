@@ -19,6 +19,10 @@ COMMON_PATH := device/realme/mt6785-common
 # Platform
 TARGET_BOARD_PLATFORM := mt6785
 
+# Apex
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a

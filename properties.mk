@@ -8,6 +8,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.vendor.mtk_hifiaudio_support=1 \
     ro.vendor.mtk_audio_tuning_tool_ver=V2.2
 
+# Apex
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.apex.updatable=false
+
 # Blurs
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
