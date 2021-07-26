@@ -111,7 +111,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.vendor.mtk_blulight_def_support=1 \
     ro.vendor.mtk_pq_support=2 \
     debug.mediatek.disp_decompress=1 \
-    debug.sf.disable_backpressure=1 \
     ro.vendor.mtk_pq_color_mode=1 \
     ro.vendor.mtk_config_max_dram_size=0x800000000
 
