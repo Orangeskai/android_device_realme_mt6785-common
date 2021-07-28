@@ -1,0 +1,5 @@
+type mtk_hal_audio, domain;
+type mtk_hal_audio_exec, exec_type, file_type;
+init_daemon_domain(mtk_hal_audio)
+
+allow mtk_hal_audio audio_prop:property_service { set };
