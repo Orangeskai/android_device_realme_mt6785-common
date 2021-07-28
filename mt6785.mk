@@ -53,7 +53,8 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
-    CameraGo
+    CameraGo \
+    DuckDuckGo
 
 # fastbootd
 PRODUCT_PACKAGES += \
